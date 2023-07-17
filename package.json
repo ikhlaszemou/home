@@ -2,7 +2,16 @@
     "name": "eth-supplychain-dapp",
     "version": "0.1.0",
     "dependencies": {
-        "solc": "^0.8.4",
-        "truffle": "^5.3.7"
-    }
+        "firebase": "9.23.0",
+        "gh-pages": "^5.0.0",
+        "solc": "0.8.4",
+        "truffle": "5.3.7"
+    },
+    "scripts": {
+        "scripts": {
+            "build": "webpack",
+            "deploy": "npm run build && git add . && git commit -m 'Deployment' && git push origin master"
+          }
+    },
+    "devDependencies": {}
 }

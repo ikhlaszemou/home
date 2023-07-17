@@ -1,0 +1,5 @@
+npm i{
+  "projects": {
+    "default": "lexical-helix-391620"
+  }
+}
